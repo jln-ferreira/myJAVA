@@ -1,4 +1,4 @@
-package com.Class;
+package OOP_Class;
 
 public class OOP_House {
 

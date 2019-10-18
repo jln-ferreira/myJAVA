@@ -1,6 +1,6 @@
 //to create all of this: CODE > GENERATE
 
-package com.Class;
+package OOP_Class;
 
 public class OOP_Car {
 
@@ -74,5 +74,7 @@ public class OOP_Car {
 
         return sb.toString();
     }
+
+
 
 }
