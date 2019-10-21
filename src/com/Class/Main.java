@@ -2,6 +2,9 @@ package com.Class;
 
 import OOP_Class.*;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class Main {
 
     public static void main(String[] args) {
@@ -111,8 +114,52 @@ public class Main {
         ((OOP1_Square)ShapeArr[2]).setLeight(10);
         */
 
+         /*
+         //using list:
+        List<OOP2_INT_Animal> arrayList = new ArrayList<>(); //flexible size
+        arrayList.add(new OOP2_Dog());
+        arrayList.add(new OOP2_Cat());
+
+        //to reach the information inside the list:
+        arrayList.get(0).eat();
+        arrayList.get(1).makeSound();
+        ((OOP2_Dog)arrayList.get(0)).cuddle();
+        
+        //there are 2 diferents objects types, Cat and dog. which i supose to use and Cast? using INTANCEOF
+        for (Object i : arrayList){
+            if(i instanceof OOP2_Dog){ //if 'i' can be cast with OOP2_Dog, do:
+                ((OOP2_Dog)i).cuddle();
+            }
+            if(i instanceof OOP2_Cat){
+                ((OOP2_Cat)i).wash();
+            }
+        }
+        */
+
+        //USING CLASS CAT WITH CONPOSITION TOY
+        OOP2_Cat myCat = new OOP2_Cat();
+        System.out.println(myCat.getCatsToy().getColor());
+        System.out.println(myCat.getCatsToy().getName());
+
+        OOP2_Cat myCatTwo = new OOP2_Cat(new OOP2_Comp_Toy("Wine Glass", "grey"));
+        System.out.println("The name of the toy is: " + myCatTwo.getCatsToy().getName() + "" +
+                " and the color is " + myCatTwo.getCatsToy().getColor());
 
 
+        //USING COMPOSTION LIST FOR A DOG
+        List<OOP2_Comp_Toy> lotsofToys = new ArrayList<>();
+        lotsofToys.add(new OOP2_Comp_Toy("Ball", "Blue"));
+        lotsofToys.add(new OOP2_Comp_Toy("Stick", "Brown"));
+        lotsofToys.add(new OOP2_Comp_Toy("Sofa", "White"));
+        lotsofToys.add(new OOP2_Comp_Toy("Chewing Bone", "Grey"));
+
+        //gonna put my list in my newDog
+        OOP2_Dog myDog = new OOP2_Dog(lotsofToys);
+
+        //to loop, i need to put the type of what i gonna find (OOP2_Comp_Toy) as "i", and where sould i find
+        for(OOP2_Comp_Toy i : myDog.getToys()){
+            System.out.println("Name: " + i.getName() + " | Color: "  + i.getColor());
+        }
 
 
     }

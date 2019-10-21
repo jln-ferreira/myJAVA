@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="60e52f52-9414-49ef-92d5-da6197501be9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/1. JAVA/com/Class/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/1. JAVA/com/Class/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/1. JAVA/com/Class/OOP_Car.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/1. JAVA/com/Class/OOP_House.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/Class/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Class/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/Class/OOP_Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OOP_Class/OOP_Car.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/Class/OOP_House.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OOP_Class/OOP_House.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,6 +14,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -47,7 +42,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Lists">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Assingment2_Plane" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Assingments.Assingment2_Plane" />
       <module name="1. JAVA" />
@@ -105,9 +100,9 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.Lists" />
         <item itemvalue="Application.Assingment2_Plane" />
-        <item itemvalue="Application.Main" />
         <item itemvalue="Application.Variable_class1" />
       </list>
     </recent_temporary>
