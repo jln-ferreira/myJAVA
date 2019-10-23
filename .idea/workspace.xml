@@ -29,6 +29,11 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="OOP_Classroom" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -41,7 +46,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.RoomMain">
     <configuration name="Assingment2_Plane" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Assingments.Assingment2_Plane" />
       <module name="1. JAVA" />
@@ -78,6 +83,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RoomMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="OOP_Classroom.RoomMain" />
+      <module name="1. JAVA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="OOP_Classroom.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Variable_class1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.Class.Variable_class1" />
       <module name="1. JAVA" />
@@ -96,9 +114,11 @@
       <item itemvalue="Application.Variable_class1" />
       <item itemvalue="Application.Assingment2_Plane" />
       <item itemvalue="Application.Lists" />
+      <item itemvalue="Application.RoomMain" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RoomMain" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Lists" />
         <item itemvalue="Application.Assingment2_Plane" />
