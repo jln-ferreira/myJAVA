@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="60e52f52-9414-49ef-92d5-da6197501be9" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1. JAVA.iml" beforeDir="false" afterPath="$PROJECT_DIR$/1. JAVA.iml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,6 +16,7 @@
       <list>
         <option value="Interface" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -24,12 +26,28 @@
   <component name="ProjectId" id="1RkKqhTDydcRDsUF0ikWdMo5Rfb" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1570044330699" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="create.test.in.the.same.root" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="UsingTest_Account" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="OOP_Classroom" />
     </key>
@@ -46,20 +64,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.RoomMain">
-    <configuration name="Assingment2_Plane" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Assingments.Assingment2_Plane" />
-      <module name="1. JAVA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Assingments.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.AccountTest">
     <configuration name="Lists" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.Class.Lists" />
       <module name="1. JAVA" />
@@ -96,33 +101,51 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Variable_class1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.Class.Variable_class1" />
+    <configuration name="AccountTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="1. JAVA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="OOP_Class.*" />
+          <option name="PATTERN" value="UsingTest_Account.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="UsingTest_Account" />
+      <option name="MAIN_CLASS_NAME" value="UsingTest_Account.AccountTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AccountTest.transfer" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="1. JAVA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="UsingTest_Account.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="UsingTest_Account" />
+      <option name="MAIN_CLASS_NAME" value="UsingTest_Account.AccountTest" />
+      <option name="METHOD_NAME" value="transfer" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
       <item itemvalue="Application.Main" />
-      <item itemvalue="Application.Variable_class1" />
-      <item itemvalue="Application.Assingment2_Plane" />
       <item itemvalue="Application.Lists" />
       <item itemvalue="Application.RoomMain" />
+      <item itemvalue="JUnit.AccountTest" />
+      <item itemvalue="JUnit.AccountTest.transfer" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.AccountTest" />
+        <item itemvalue="JUnit.AccountTest.transfer" />
         <item itemvalue="Application.RoomMain" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Lists" />
-        <item itemvalue="Application.Assingment2_Plane" />
-        <item itemvalue="Application.Variable_class1" />
       </list>
     </recent_temporary>
   </component>
