@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="60e52f52-9414-49ef-92d5-da6197501be9" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Try_Catch/Try_Catch1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Try_Catch/Try_Catch1.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -63,20 +64,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.AccountTest">
-    <configuration name="Lists" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.Class.Lists" />
-      <module name="1. JAVA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.Class.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Try_Catch1">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.Class.Main" />
       <module name="1. JAVA" />
@@ -93,6 +81,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="OOP_Classroom.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Try_Catch1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Try_Catch.Try_Catch1" />
+      <module name="1. JAVA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Try_Catch.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -133,18 +134,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.Main" />
-      <item itemvalue="Application.Lists" />
       <item itemvalue="Application.RoomMain" />
       <item itemvalue="JUnit.AccountTest" />
       <item itemvalue="JUnit.AccountTest.transfer" />
+      <item itemvalue="Application.Try_Catch1" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Try_Catch1" />
         <item itemvalue="JUnit.AccountTest" />
         <item itemvalue="JUnit.AccountTest.transfer" />
         <item itemvalue="Application.RoomMain" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Lists" />
       </list>
     </recent_temporary>
   </component>
