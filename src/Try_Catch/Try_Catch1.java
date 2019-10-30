@@ -1,5 +1,7 @@
 package Try_Catch;
 
+import java.util.Scanner;
+
 public class Try_Catch1 {
     public static void main(String[] args) {
 
@@ -52,6 +54,18 @@ public class Try_Catch1 {
             System.out.println("End example 4");
         }
 
+        //using scanner -> loop to show if its a double value or not
+        while (true){
+            Scanner sn = new Scanner(System.in);
+            System.out.println("Input a number:");
+
+            double userInput;
+
+            if(sn.hasNextDouble()){ //see if the input is double or not
+                userInput = sn.nextDouble();
+                System.out.println("The value " + userInput + " is Double;");
+            }else System.out.println("The value is not DOUBLE, try again");
+        }
     }
 
     //some methods
