@@ -1,7 +1,20 @@
 import java.util.List;
 
-public class Manu {
+public class Menu {
 
     //proprieties/ fields
-    item List<Item>;
+    private List<Item> restaurantMenu;
+
+    //SETTERS
+    public void setRestaurantMenu(List<Item> restaurantMenu) {
+        this.restaurantMenu = restaurantMenu;
+    }
+
+    //GETTERS
+    public List<Item> getRestaurantMenu() {
+        return restaurantMenu;
+    }
+
+    //methods
+    public void getItens(){}
 }
