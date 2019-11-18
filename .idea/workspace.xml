@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="60e52f52-9414-49ef-92d5-da6197501be9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Connections/Artist.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1. JAVA.iml" beforeDir="false" afterPath="$PROJECT_DIR$/1. JAVA.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Midterm_Restaurant/src/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/Midterm_Restaurant/src/Menu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Midterm_Restaurant/src/Staff.java" beforeDir="false" afterPath="$PROJECT_DIR$/Midterm_Restaurant/src/Staff.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Midterm_Restaurant/src/Waitress.java" beforeDir="false" afterPath="$PROJECT_DIR$/Midterm_Restaurant/src/Waitress.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Connections/ConnectMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Connections/ConnectMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Connections/Connections.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Connections/Connections.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -148,10 +144,10 @@
     </configuration>
     <list>
       <item itemvalue="Application.RoomMain" />
-      <item itemvalue="JUnit.AccountTest" />
-      <item itemvalue="JUnit.AccountTest.transfer" />
       <item itemvalue="Application.Connections" />
       <item itemvalue="Application.ConnectMain" />
+      <item itemvalue="JUnit.AccountTest" />
+      <item itemvalue="JUnit.AccountTest.transfer" />
     </list>
     <recent_temporary>
       <list>
